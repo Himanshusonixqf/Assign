@@ -16,13 +16,8 @@ const url=("https://645f6f157da4477ba95716d0.mockapi.io/crud");
     }catch(error){console.log(error) }
   };
 
-   const handleerapi=()=>{
-   
-    fetch(url,{
-     method:'POST',
     
 
-   })}
 
   useEffect(()=>{
     getWeather(url);
